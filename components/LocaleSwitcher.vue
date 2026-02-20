@@ -9,10 +9,10 @@
 </template>
 
 <script setup lang="ts">
-import { ref, watch } from 'vue';
-import { useRouter } from 'vue-router';
-import { getLocaleName, getLocalizedUrl } from 'intlayer';
-import { useLocale } from 'vue-intlayer';
+import { ref, watch } from "vue";
+import { useRouter } from "vue-router";
+import { getLocaleName, getLocalizedUrl } from "intlayer";
+import { useLocale } from "vue-intlayer";
 
 // Get Vue Router
 const router = useRouter();
@@ -40,6 +40,6 @@ watch(
   () => locale.value,
   (newLocale) => {
     selectedLocale.value = newLocale;
-  }
+  },
 );
 </script>
