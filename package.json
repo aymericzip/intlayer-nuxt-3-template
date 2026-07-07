@@ -12,13 +12,13 @@
   },
   "dependencies": {
     "@nuxtjs/i18n": "^10.2.1",
-    "intlayer": "9.0.0-canary.12",
+    "intlayer": "canary",
     "nuxt": "^3.20.1",
     "vue": "^3.5.25",
-    "vue-intlayer": "9.0.0-canary.12"
+    "vue-intlayer": "canary"
   },
   "devDependencies": {
-    "intlayer-editor": "9.0.0-canary.12",
-    "nuxt-intlayer": "9.0.0-canary.12"
+    "intlayer-editor": "canary",
+    "nuxt-intlayer": "canary"
   }
 }
